@@ -5,9 +5,9 @@
         "identifier": "EULA",
         "url": "https://tms.dingtalk.com/markets/dingtalk/service-terms-zh"
     },
-    "version": "4.6.33.27",
-    "url": "https://download.alicdn.com/dingtalk-desktop/win_installer/Release/DingTalk_v4.6.33.27.exe#/dl.7z",
-    "hash": "md5:640195785b11f659d3c4f941a6814856",
+    "version": "4.6.33.76",
+    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v4.6.33.76.exe#/dl.7z",
+    "hash": "md5:CB6CD397631A1F97DCBB30A91223C8FA",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "shortcuts": [
         [
@@ -20,7 +20,7 @@
         "regex": "DingTalk_v([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://download.alicdn.com/dingtalk-desktop/win_installer/Release/DingTalk_v$version.exe#/dl.7z",
+        "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v$version.exe#/dl.7z",
         "hash": {
             "url": "https://im.dingtalk.com/manifest/release_nativeui_windows_manual_check.json",
             "jp": "$.win.install.md5"
